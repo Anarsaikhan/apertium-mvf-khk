@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- mvf → khk -->
+
+  <mode name="mvf-khk" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="mvf-khk.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="mvf-khk.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="mvf-khk.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="mvf-khk.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="mvf-khk.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-mvf-khk.mvf-khk.t1x"/>
+        <file name="mvf-khk.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-mvf-khk.mvf-khk.t2x"/>
+        <file name="mvf-khk.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-mvf-khk.mvf-khk.t3x"/>
+        <file name="mvf-khk.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="mvf-khk.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="mvf-khk.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- khk → mvf -->
+
+  <mode name="khk-mvf" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="khk-mvf.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="khk-mvf.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="khk-mvf.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="khk-mvf.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="khk-mvf.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-mvf-khk.khk-mvf.t1x"/>
+        <file name="khk-mvf.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-mvf-khk.khk-mvf.t2x"/>
+        <file name="khk-mvf.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-mvf-khk.khk-mvf.t3x"/>
+        <file name="khk-mvf.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="khk-mvf.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="khk-mvf.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
