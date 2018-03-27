@@ -333,7 +333,7 @@
 
 
 <!-- SECTION: Abbreviations -->
-! Need to check
+<!-- FIXME: Need to check -->
 
 <e>       <p><l>кг<s n="abbr"/></l>               <r>кг<s n="abbr"/></r></p></e> <!-- "kg" -->
 <e>       <p><l>км²<s n="abbr"/></l>              <r>км²<s n="abbr"/></r></p></e> <!-- "km" -->
