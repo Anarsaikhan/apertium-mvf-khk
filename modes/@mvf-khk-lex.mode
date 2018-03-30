@@ -1,0 +1,2 @@
+
+  lt-proc -w '/Users/anarsaikhan/Desktop/V2/apertium-mvf-khk/mvf-khk.automorf-untrimmed.bin' | cg-proc -w '/Users/anarsaikhan/Desktop/V2/apertium-mvf-khk/mvf-khk.rlx.bin' | apertium-tagger -g $2 '/Users/anarsaikhan/Desktop/V2/apertium-mvf-khk/mvf-khk.prob' | apertium-pretransfer| lt-proc -b '/Users/anarsaikhan/Desktop/V2/apertium-mvf-khk/mvf-khk.autobil.bin' | lrx-proc -t '/Users/anarsaikhan/Desktop/V2/apertium-mvf-khk/mvf-khk.autolex.bin' 

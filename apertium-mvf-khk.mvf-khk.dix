@@ -1,367 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <dictionary>
-  <alphabet></alphabet>
+   <!-- Define the alphabet below. -->
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+
   <sdefs>
-    <sdef n="n" 	c="Noun - Зат есім - Исем - Существительное"/>
-    <sdef n="v" 	c="Verb - Фигыль - Глагол"/>
-    <sdef n="vaux" 	c="Auxiliary verbs - Ярдәмче фигыль"/>
-    <sdef n="num" 	c="Numeral - Сан есім - Сан - Числительное"/>
-    <sdef n="det" 	c="Determiner"/>
-    <sdef n="np" 	c="Proper noun - Имя собственное"/>
-    <sdef n="prn" 	c="Местоимение"/>
-    <sdef n="adv" 	c="Adverb - Үстеу - Рәвеш - Наречие"/>
-    <sdef n="post" 	c="Postposition - Бәйлек - Септеулік шылау - Послелог"/>
-    <sdef n="part" 	c="Частица"/>
-    <sdef n="postadv" 	c="Postadverb - /Артүстеу/ - /Артрәвеш/ - /Посленаречие/"/>
-    <sdef n="adj" 	c="Adjective - Сын есім - Сыйфат - Прилагательное"/>
-    <sdef n="cnjcoo" 	c="Coordinating conjunction - жалғаулық шылау - Тезүче теркәгеч - Сочинительный союз"/>
-    <sdef n="cnjsub" 	c="Subordinating conjunction - жалғаулық шылау - Ияртүче теркәгеч - Подчинительный союз"/>
-    <sdef n="cnjadv" 	c="Conjunctional adverb ~ Относительные слова"/>
-    <sdef n="pred" 	c="Predicative - Хәбәрлек сүз - Предикативное слово ! var, yok; мәҗбүр"/>
-    <sdef n="abbr" 	c="Abbreviation"/>
-    <sdef n="cop" 	c="Copula"/>
-    <sdef n="ij" 	c="Interjection - Одағай - Ымлык - Междометие"/>
-    <sdef n="qst" 	c="Question modal particle (cltic)"/>
-    <sdef n="mod_foc" 	c="Particle of politeness and ardent desire (clitic)"/>
-    <sdef n="mod_ass" 	c="Assertive modal particle (clitic)"/>
-    <sdef n="mod_ind" 	c="Indefinite modal particle (clitic)"/>
-    <sdef n="mod" 	c="Modal verbs"/>
-    <sdef n="pers" 	c="Personal - Зат (алмашлыгы) - Личное (местоимение)"/>
-    <sdef n="itg" 	c="Interrogative"/>
-    <sdef n="neg" 	c="Negative"/>
-    <sdef n="ref" 	c="Reflexive"/>
-    <sdef n="qnt" 	c="Quantifier"/>
-    <sdef n="dem" 	c="Demonstrative"/>
-    <sdef n="ind" 	c="Indefinite"/>
-    <sdef n="subst" 	c="Substantivized"/>
-    <sdef n="attr" 	c="Attributive"/>
-    <sdef n="advl" 	c="Adverbial"/>
-    <sdef n="top" 	c="Toponym"/>
-    <sdef n="ant" 	c="Anthroponym"/>
-    <sdef n="pat" 	c="Patronym"/>
-    <sdef n="cog" 	c="Cognomen"/>
-    <sdef n="org" 	c="Organization name"/>
-    <sdef n="al" 	c="Other"/>
-    <sdef n="m" 	c="Мужской род"/>
-    <sdef n="mf" 	c="Мужской или женский род"/>
-    <sdef n="f" 	c="Женский род"/>
-    <sdef n="iv" 	c="Intransitive"/>
-    <sdef n="tv" 	c="Transitive"/>
-    <sdef n="TD" 	c="Not defined in kaz.lexc"/>
-    <sdef n="caus" 	c=""/>
-    <sdef n="coop" 	c=""/>
-    <sdef n="pass" 	c=""/>
-    <sdef n="p1" 	c=""/>
-    <sdef n="p2" 	c=""/>
-    <sdef n="p3" 	c=""/>
-    <sdef n="frm" 	c=""/>
-    <sdef n="sg" 	c=""/>
-    <sdef n="pl" 	c=""/>
-    <sdef n="sp" 	c=""/>
-    <sdef n="guio" 	c=""/>
-    <sdef n="cm" 	c=""/>
-    <sdef n="sent" 	c=""/>
-    <sdef n="lpar" 	c=""/>
-    <sdef n="rpar" 	c=""/>
-    <sdef n="lquot" 	c=""/>
-    <sdef n="rquot" 	c=""/>
-    <sdef n="apos" 	c=""/>
-    <sdef n="px" 	c=""/>
-    <sdef n="ger" 	c=""/>
-    <sdef n="ord" 	c=""/>
-    <sdef n="loc" 	c=""/>
-    <sdef n="sim" 	c=""/>
-    <sdef n="gpr_pot" 	c=""/>
-    <sdef n="gpr_past" 	c=""/>
-    <sdef n="prc_perf" 	c=""/>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"               c="Noun"/>
+    <sdef n="np"              c="Proper noun"/>
+    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="cnjsub"          c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="pr"              c="Preposition"/>
+    <sdef n="adv"             c="Adverb"/>
+    <sdef n="ij"              c="Interjection"/>
+    <sdef n="adj"             c="Adjective"/>
+    <sdef n="prn"             c="Pronoun"/>
+
+    <sdef n="attr"            c="Attributive"/>
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+
+    <sdef n="det"             c="Determiner"/>
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="1st person"/>
+    <sdef n="p2"              c="2nd person"/>
+    <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="ut"              c="Utrum"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+    <sdef n="un"              c="No gender"/>
+
+    <sdef n="sg"              c="Singular"/>
+    <sdef n="du"              c="Dual"/>
+    <sdef n="pl"              c="Plural"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Nominative"/>
+    <sdef n="acc"             c="Accusative"/>
+    <sdef n="gen"             c="Genitive"/>
+
+    <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+    <sdef n="emph"            c="Emphatic"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="num"             c="Numeral"/>
+    <sdef n="sent"            c="Sentence end"/>
+    <sdef n="cm"              c="Comma"/>
+    <sdef n="apos"            c="Apostrophe"/>
+    <sdef n="guio"            c="Dash"/>
+    <sdef n="lpar"            c="Left parenthesis"/>
+    <sdef n="rpar"            c="Right parenthesis"/>
+    <sdef n="lquot"           c="Left quote"/>
+    <sdef n="rquot"           c="Right quote"/>
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
-  <section id="main" type="standard">
 
+   <section id="main" type="standard">
+      <!-- Nouns -->
+      <e><p><l>ᠳᠠᠢᠰᠣᠨ<s n="n"/></l><r>дайсан<s n="n"/></r></p></e>
+      <e><p><l>ᠪᠠᠭᠠᠲᠤᠷ<s n="n"/></l><r>баатар<s n="n"/></r></p></e>
+      <e><p><l>ᠵᠠᠶᠢᠷᠮᠠᠭ<s n="n"/></l><r>зайрмаг<s n="n"/></r></p></e>
 
-<!-- SECTION: Copula -->
+      <!-- Verbs -->
+      <e><p><l>ᠰᠡᠷᠭᠡᠶᠢᠯᠡᠬᠦ<s n="vblex"/></l><r>сэргийлэх<s n="vblex"/></r></p></e>
+      <e><p><l>ᠪᠣᠯ<s n="vblex"/></l><r>бол<s n="vblex"/></r></p></e>
+      <e><p><l>ᠢᠳᠡᠬᠦ<s n="vblex"/></l><r>идэх<s n="vblex"/></r></p></e>
+      <e><p><l>ᠳᠤᠷᠠᠲᠠᠢ<s n="vblex"/></l><r>дуртай<s n="vblex"/></r></p></e>
 
+      <!-- Pronouns -->
+      <e><p><l>ᠪᠢ<s n="prn"/></l><r>би<s n="prn"/></r></p></e>
 
-<e>       <p><l>ᠠ<s n="cop"/></l>                 <r>а<s n="cop"/></r></p></e>
 
-
-<!-- SECTION: Modal/discourse particles (Clitics) -->
-
-
-<e>       <p><l>ᠪᠤᠢ<s n="qst"/></l>                <r>бэ<s n="qst"/></r></p></e>
-
-<!-- SECTION: Co-ordinating conjunctions -->
-
-    <!-- Соединительные -->
-
-<e>       <p><l>ᠬᠠᠷᠢᠨ<s n="cnjcoo"/></l>             <r>харин<s n="cnjcoo"/></r></p></e>
-<!-- SECTION: Postadverbs -->
-
-
-<e>       <p><l>ᠪᠠᠰᠠ<s n="postadv"/></l>            <r>бас<s n="postadv"/></r></p></e>
-
-<!-- SECTION: Postpositions -->
-<e>       <p><l>ᠲᠤᠬᠠᠢ<s n="post"/></l>          <r>тухай<s n="post"/></r></p></e>
-<e>       <p><l>ᠳᠡᠭᠡᠷ᠎ᠡ<s n="post"/></l>          <r>дээр<s n="post"/></r></p></e>
-
-<!-- SECTION: Numerals -->
-
-
-<e>       <p><l>ᠨᠢᠭᠡ<s n="num"/></l>               <r>нэг<s n="num"/></r></p></e>
-<e>       <p><l>ᠬᠣᠶᠠᠷ<s n="num"/></l>               <r>хоёр<s n="num"/></r></p></e>
-<e>       <p><l>ᠭᠤᠷᠪᠠ<s n="num"/></l>                <r>гурав<s n="num"/></r></p></e>
-<e>       <p><l>ᠳᠥᠷᠪᠡ<s n="num"/></l>              <r>дөрөв<s n="num"/></r></p></e>
-<e>       <p><l>ᠲᠠᠪᠤ<s n="num"/></l>               <r>тав<s n="num"/></r></p></e>
-<e>       <p><l>ᠵᠢᠷᠭᠤᠭ᠎ᠠ<s n="num"/></l>              <r>зургаа<s n="num"/></r></p></e>
-<e>       <p><l>ᠳᠣᠯᠣᠭ᠎ᠠ<s n="num"/></l>              <r>долоо<s n="num"/></r></p></e>
-<e>       <p><l>ᠨᠠᠶᠢᠮᠠ<s n="num"/></l>             <r>найм<s n="num"/></r></p></e>
-<e>       <p><l>ᠶᠢᠰᠦ<s n="num"/></l>             <r>ес<s n="num"/></r></p></e>
-<e>       <p><l>ᠠᠷᠪᠠ<s n="num"/></l>                <r>арав<s n="num"/></r></p></e>
-
-
-<!-- SECTION: Pronouns -->
-
-
-    <!-- Personal pronouns -->
-
-<e>       <p><l>ᠪᠢ<s n="prn"/><s n="pers"/></l>  <r>би<s n="prn"/><s n="pers"/></r></p></e>
-<e>       <p><l>ᠴᠢ<s n="prn"/><s n="pers"/></l>  <r>чи<s n="prn"/><s n="pers"/></r></p></e>
-<e>       <p><l>ᠲᠡᠷᠡ<s n="prn"/><s n="pers"/></l>   <r>тэр<s n="prn"/><s n="pers"/></r></p></e>
-
-
-    <!-- Demonstrative pronouns -->
-
-<e>       <p><l>ᠡᠨᠡ<s n="prn"/><s n="dem"/></l>   <r>энэ<s n="prn"/><s n="dem"/></r></p></e>
-<e>       <p><l>ᠲᠡᠷᠡ<s n="prn"/><s n="dem"/></l>   <r>тэр<s n="prn"/><s n="dem"/></r></p></e>
-<e>       <p><l>ᠨᠦᠭᠦᠭᠡ<s n="prn"/><s n="dem"/></l>   <r>нөгөө<s n="prn"/><s n="dem"/></r></p></e>
-
-    <!-- Interrogative pronouns -->
-
-<e>       <p><l>ᠶᠠᠮᠠᠷ<s n="prn"/><s n="itg"/></l> <r>ямар<s n="prn"/><s n="itg"/></r></p></e>
-
-    <!-- Reflexive pronouns -->
-
-
-
-<!-- SECTION: Determiners -->
-<e>       <p><l>ᠡᠨᠡ<s n="det"/></l>           <r>энэ<s n="det"/><s n="dem"/></r></p></e>
-<e>       <p><l>ᠲᠡᠷᠡ<s n="det"/></l>          <r>тэр<s n="det"/><s n="dem"/></r></p></e>
-<e>       <p><l>ᠶᠠᠮᠠᠷ<s n="det"/></l>          <r>ямар<s n="det"/><s n="dem"/></r></p></e>
-<e>       <p><l>ᠨᠦᠭᠦᠭᠡ<s n="det"/></l>          <r>нөгөө<s n="det"/><s n="dem"/></r></p></e>
-
-
-
-<!-- SECTION: Nouns -->
-
-
-<e>       <p><l>ᠴᠠᠭ<s n="n"/></l>              <r>цаг<s n="n"/></r></p></e> <!--"hour, watch"-->
-<e>       <p><l>ᠭᠠᠷ<s n="n"/></l>              <r>гар<s n="n"/></r></p></e> <!--"hand"-->
-<e>       <p><l>ᠨᠠᠰᠤ<s n="n"/></l>              <r>нас<s n="n"/></r></p></e> <!--"age"-->
-<e>       <p><l>ᠪᠠᠶᠢᠷᠢ<s n="n"/></l>             <r>байр<s n="n"/></r></p></e> <!--"apartment"-->
-<e>       <p><l>ᠪᠠᠩᠬᠢ<s n="n"/></l>             <r>банк<s n="n"/></r></p></e> <!--"bank"-->
-<e>       <p><l>ᠨᠣᠮ<s n="n"/></l>              <r>ном<s n="n"/></r></p></e> <!--"book"-->
-<e>       <p><l>ᠭᠤᠲᠤᠯ<s n="n"/></l>            <r>гутал<s n="n"/></r></p></e> <!--"boot(s)"-->
-<e>       <p><l>ᠳᠠᠷᠤᠭ᠎ᠠ<s n="n"/></l>            <r>дарга<s n="n"/></r></p></e> <!--"boss"-->
-<e>       <p><l>ᠵᠤᠯᠠᠴᠢᠨ<s n="n"/></l>           <r>зулчин<s n="n"/></r></p></e> <!--"tourist"-->
-<e>       <p><l>ᠬᠤᠪᠴᠠᠰᠤ<s n="n"/></l>           <r>хувцас<s n="n"/></r></p></e> <!--"clothes"-->
-<e>       <p><l>ᠲᠠᠯᠠᠪᠠᠢ<s n="n"/></l>           <r>талбай<s n="n"/></r></p></e> <!--"square"-->
-<e>       <p><l>ᠬᠦᠮᠦᠨ<s n="n"/></l>              <r>хүн<s n="n"/></r></p></e> <!--"person"-->
-<e>       <p><l>ᠬᠡᠦᠬᠡᠳ<s n="n"/></l>           <r>хүүхэд<s n="n"/></r></p></e> <!--"child, son"-->
-<e>       <p><l>ᠥᠬᠢᠨ<s n="n"/></l>             <r>охин<s n="n"/></r></p></e> <!--"girl"-->
-<e>       <p><l>ᠳᠡᠯᠭᠡᠭᠦᠷ<s n="n"/></l>          <r>дэлгүүр<s n="n"/></r></p></e> <!--"sore"-->
-<e>       <p><l>ᠰᠠᠯᠢᠨ<s n="n"/></l>            <r>салин<s n="n"/></r></p></e> <!--"salary"-->
-<e>       <p><l>ᠴᠠᠰᠤ<s n="n"/></l>              <r>цас<s n="n"/></r></p></e> <!--"snow"-->
-<e>       <p><l>ᠴᠢᠰᠤ<s n="n"/></l>              <r>цус<s n="n"/></r></p></e> <!--"blood"-->
-<e>       <p><l>ᠡᠯᠢᠭᠡ<s n="n"/></l>             <r>элэг<s n="n"/></r></p></e> <!--"liver"-->
-<e>       <p><l>ᠬᠣᠨᠢ<s n="n"/></l>             <r>хонь<s n="n"/></r></p></e> <!--"sheep"-->
-<e>       <p><l>ᠢᠮᠠᠭ᠎ᠠ<s n="n"/></l>             <r>ямаа<s n="n"/></r></p></e> <!--"goat"-->
-<e>       <p><l>ᠡᠬᠡ<s n="n"/></l>               <r>эх<s n="n"/></r></p></e> <!--"beginning"-->
-<e>       <p><l>ᠲᠩᠷᠢ<s n="n"/></l>           <r>тэнгэр<s n="n"/></r></p></e> <!--"sky"-->
-<e>       <p><l>ᠭᠠᠵᠠᠷ<s n="n"/></l>            <r>газар<s n="n"/></r></p></e> <!--"earth"-->
-<e>       <p><l>ᠪᠦᠯᠢ<s n="n"/></l>       <r>гэр<b/>бүл<s n="n"/></r></p></e> <!--"family"-->
-<e>       <p><l>ᠡᠷᠬᠡ<s n="n"/></l>              <r>эрх<s n="n"/></r></p></e> <!--"rights"-->
-<e>       <p><l>ᠲᠤᠩᠬᠠᠭᠯᠠᠯ<s n="n"/></l>        <r>тунхаглал<s n="n"/></r></p></e> <!--"declaration"-->
-<e>       <p><l>ᠭᠡᠰᠢᠭᠦᠨ<s n="n"/></l>           <r>гишүүн<s n="n"/></r></p></e> <!--"member"-->
-<e>       <p><l>ᠴᠢᠯᠦᠭᠡ<s n="n"/></l>     <r>эрх<b/>чөлөө<s n="n"/></r></p></e> <!--"freedom"-->
-<e>       <p><l>ᠫᠢᠸ<s n="n"/></l>              <r>пив<s n="n"/></r></p></e> <!--"beer"-->
-<e>       <p><l>ᠬᠤᠪᠢᠩ<s n="n"/></l>            <r>хувин<s n="n"/></r></p></e> <!--"bucket"-->
-<e>       <p><l>ᠰᠠᠯᠬᠢ<s n="n"/></l>            <r>салхи<s n="n"/></r></p></e> <!--"ветер"-->
-<e>       <p><l>ᠮᠥᠷᠡᠨ<s n="n"/></l>            <r>мөрөн<s n="n"/></r></p></e> <!--"река"-->
-<e>       <p><l>ᠠᠭᠠᠯᠵᠢ<s n="n"/></l>            <r>аалз<s n="n"/></r></p></e> <!--"паук"-->
-<e>       <p><l>ᠠᠯᠲᠠᠨ<s n="n"/></l>            <r>алтан<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠠᠮᠢᠲᠠᠨ<s n="n"/></l>            <r>амьтан<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠠᠷᠠᠯ<s n="n"/></l>            <r>арал<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠠᠷᠰᠯᠠᠨ<s n="n"/></l>            <r>арслан<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠠᠷᠢᠬᠢ<s n="n"/></l>            <r>архи<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠠᠰᠠᠭᠤᠯᠲᠠ<s n="n"/></l>            <r>асуулт<s n="n"/></r></p></e> <!--"вопрос"-->
-<e>       <p><l>ᠠᠰᠤᠭᠤᠯᠳᠠᠯ<s n="n"/></l>            <r>асуулдал<s n="n"/></r></p></e> <!--"проблема"-->
-<e>       <p><l>ᠪᠠᠭᠠᠪᠠᠭᠠᠢ<s n="n"/></l>            <r>баавгай<s n="n"/></r></p></e> <!--"медведь"-->
-<e>       <p><l>ᠪᠠᠶᠢᠭᠠᠯᠢ<s n="n"/></l>            <r>байгаль<s n="n"/></r></p></e> <!--"природа"-->
-<e>       <p><l>ᠮᠡᠯᠡᠬᠡᠢ<s n="n"/></l>            <r>мэлхий<s n="n"/></r></p></e> <!--"лягушка"-->
-<e>       <p><l>ᠪᠣᠷᠣᠭ᠎ᠠ<s n="n"/></l>            <r>бороо<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠪᠤᠷᠬᠠᠨ<s n="n"/></l>            <r>бурхан<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠭᠠᠯ<s n="n"/></l>            <r>гал<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠭᠡᠷ<s n="n"/></l>            <r>гэр<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠭᠡᠷᠡᠯ<s n="n"/></l>            <r>гэрэл<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠳᠠᠪᠤᠰᠤ<s n="n"/></l>            <r>давс<s n="n"/></r></p></e> <!--"соль"-->
-<e>       <p><l>ᠵᠢᠮᠢᠰ<s n="n"/></l>            <r>жимс<s n="n"/></r></p></e> <!--"фрукты"-->
-<e>       <p><l>ᠵᠢᠭᠠᠰᠤ<s n="n"/></l>            <r>загас<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠵᠤᠨ<s n="n"/></l>            <r>зун<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠵᠢᠷᠦᠬᠡ<s n="n"/></l>            <r>зүрх<s n="n"/></r></p></e> <!--"сердце"-->
-<e>       <p><l>ᠮᠥᠩᠭᠥ<s n="n"/></l>            <r>мөнгө<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠨᠠᠰᠤ<s n="n"/></l>            <r>нас<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠨᠠᠷᠠ<s n="n"/></l>            <r>нар<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠨᠢᠰᠯᠡᠯ<s n="n"/></l>            <r>нислэл<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠨᠥᠬᠥᠷ<s n="n"/></l>            <r>нөхөр<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠨᠡᠷᠡ<s n="n"/></l>            <r>нэр<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠨᠣᠬᠠᠢ<s n="n"/></l>            <r>нохой<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠨᠢᠳᠦ<s n="n"/></l>            <r>нүд<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠨᠠᠭᠤᠷ<s n="n"/></l>            <r>нуур<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠣᠷᠣᠢ<s n="n"/></l>            <r>орой<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠯᠣᠣᠯᠢ<s n="n"/></l>            <r>лооль<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠴᠣᠩᠬᠣ<s n="n"/></l>            <r>цонх<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠴᠡᠴᠡᠷᠯᠢᠭ<s n="n"/></l>            <r>цэцэрлэг<s n="n"/></r></p></e> <!--"сад"-->
-<e>       <p><l>ᠲᠣᠯᠣᠭᠠᠢ<s n="n"/></l>            <r>толгой<s n="n"/></r></p></e> <!--"голова"-->
-<e>       <p><l>ᠠᠯᠲᠠᠨᠵᠤᠯ<s n="n"/></l>            <r>алтанзул<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠤᠰᠤ<s n="n"/></l>            <r>ус<s n="n"/></r></p></e> <!--"вода"-->
-<e>       <p><l>ᠤᠯᠤᠰ<s n="n"/></l>            <r>улс<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠡᠪᠦᠳᠦᠭ<s n="n"/></l>            <r>өвдөг<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠡᠪᠦᠯ<s n="n"/></l>            <r>өвөл<s n="n"/></r></p></e> <!--"зима"-->
-<e>       <p><l>ᠦᠭᠡ<s n="n"/></l>            <r>үг<s n="n"/></r></p></e> <!--"слово"-->
-<e>       <p><l>ᠡᠳᠦᠷ<s n="n"/></l>            <r>өдөр<s n="n"/></r></p></e> <!--"день"-->
-<e>       <p><l>ᠦᠨᠡᠭᠡ<s n="n"/></l>            <r>үнэг<s n="n"/></r></p></e> <!--"лиса"-->
-<e>       <p><l>ᠬᠠᠯᠪᠠᠭ᠎ᠠ<s n="n"/></l>            <r>халбага<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠬᠠᠮᠠᠷ<s n="n"/></l>            <r>хамар<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠬᠣᠲᠠ<s n="n"/></l>            <r>хот<s n="n"/></r></p></e> <!--"город"-->
-<e>       <p><l>ᠬᠡᠯᠡ<s n="n"/></l>            <r>хэл<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠰᠠᠷ᠎ᠠ<s n="n"/></l>            <r>сар<s n="n"/></r></p></e> <!--"луна"-->
-<e>       <p><l>ᠰᠠᠬᠠᠯ<s n="n"/></l>            <r>сахал<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠰᠦᠬᠡ<s n="n"/></l>            <r>сүх<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠴᠢᠨᠣ᠎ᠠ<s n="n"/></l>            <r>чоно<s n="n"/></r></p></e> <!--"волк"-->
-<e>       <p><l>ᠰᠢᠪᠠᠭᠤ<s n="n"/></l>            <r>шувуу<s n="n"/></r></p></e> <!--"птица"-->
-<e>       <p><l>ᠴᠢᠯᠠᠭᠤ<s n="n"/></l>            <r>чулуу<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠰᠢᠳᠦ<s n="n"/></l>            <r>шүд<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠡᠷᠪᠡᠬᠡᠢ<s n="n"/></l>            <r>эрвээхий<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠡᠬᠡᠨᠡᠷ<s n="n"/></l>            <r>эхнэр<s n="n"/></r></p></e> <!--""-->
-<e>       <p><l>ᠳᠠᠶᠢᠰᠤᠨ<s n="n"/></l>              <r>дайсан<s n="n"/></r></p></e> <!--"enemy, rival"-->
-<e>       <p><l>ᠡᠪᠡᠳᠴᠢᠨ<s n="n"/></l>              <r>өвчин<s n="n"/></r></p></e> <!--"illness, disease"-->
-<e>       <p><l>ᠠᠷᠢᠭᠣᠨ ᠴᠡᠪᠡᠷ<s n="n"/></l>              <r>ариун цэвэр<s n="n"/></r></p></e> <!--"sanitary"-->
-<e>       <p><l>ᠠᠵᠢᠯ ᠬᠦᠳᠡᠯᠮᠦᠷᠢ<s n="n"/></l>              <r>ажил хөдөлмөр<s n="n"/></r></p></e> <!--"labour"-->
-<e>       <p><l>ᠡᠷᠳᠡᠮ ᠨᠣᠮ<s n="n"/></l>              <r>эрдэм ном<s n="n"/></r></p></e> <!--"knowledge, learning"-->
-
-
-
-
-    <!-- Nationalities -->
-    <!-- Languages -->
-    <!-- Anthroponyms -->
-    <!-- Patronyms -->
-    <!-- Cognoms -->
-    <!-- Other toponyms-->
-<e>       <p><l>ᠢᠶᠡᠷᠤᠰᠠᠯᠢᠮ<s n="np"/><s n="top"/></l>            <r>Иерусалим<s n="np"/><s n="top"/></r></p></e> <!--"Jerusalem"-->
-    <!-- Organizations -->
-    <!-- Other proper names -->
-<e>       <p><l>ᠪᠤᠷᠬᠠᠨ<s n="n"/></l>           <r>бурхан<s n="n"/></r></p></e> <!--"God"-->
-
-<!--SECTION: Adjectives -->
-
-
-    <!-- A4 adj. -->
-
-<e>       <p><l>ᠰᠠᠶᠢᠬᠠᠨ<s n="adj"/></l>             <r>сайхан<s n="adj"/></r></p></e> <!-- "good"-->
-<e>       <p><l>ᠠᠷᠢᠭᠤᠨ<s n="adj"/></l>             <r>ариун<s n="adj"/></r></p></e> <!-- "pure"-->
-<e>       <p><l>ᠮᠠᠭᠤ<s n="adj"/></l>             <r>муу<s n="adj"/></r></p></e> <!-- "bad"-->
-<e>       <p><l>ᠵᠥᠪ<s n="adj"/></l>             <r>зөв<s n="adj"/></r></p></e> <!-- "correct"-->
-<e>       <p><l>ᠬᠡᠷᠡᠭᠲᠡᠢ<s n="adj"/></l>             <r>хэрэгтэй<s n="adj"/></r></p></e> <!-- "necessary"-->
-<e>       <p><l>ᠰᠢᠨ᠎ᠡ<s n="adj"/></l>             <r>шинэ<s n="adj"/></r></p></e> <!-- "~new"-->
-<e>       <p><l>ᠲᠣᠮᠣ<s n="adj"/></l>             <r>том<s n="adj"/></r></p></e> <!-- "big"-->
-<e>       <p><l>ᠵᠢᠵᠢᠭ<s n="adj"/></l>               <r>жижиг<s n="adj"/></r></p></e> <!-- "small"-->
-<e>       <p><l>ᠵᠢᠵᠢᠭᠬᠡᠨ<s n="adj"/></l>            <r>жижигхэн<s n="adj"/></r></p></e> <!-- "small"-->
-<e>       <p><l>ᠠᠮᠠᠷᠬᠠᠨ<s n="adj"/></l>             <r>амархан<s n="adj"/></r></p></e> <!-- "easy"-->
-<e>       <p><l>ᠬᠡᠵᠡᠭᠦ<s n="adj"/></l>               <r>хэзүү<s n="adj"/></r></p></e> <!-- "hard (solid)"-->
-<e>       <p><l>ᠲᠦᠭᠡᠮᠡᠯ<s n="adj"/></l>            <r>түгээмэл<s n="adj"/></r></p></e> <!-- "general, universal"-->
-<e>       <p><l>ᠨᠦᠭᠦᠭᠡ<s n="adj"/></l>            <r>нөгөө<s n="adj"/></r></p></e> <!-- "other"-->
-<e>       <p><l>ᠵᠠᠯᠬᠠᠭᠣ<s n="adj"/></l>            <r>залхуу<s n="adj"/></r></p></e> <!-- "lazy, idly"-->
-<e>       <p><l>ᠡᠷᠭᠢᠭᠦᠦ<s n="adj"/></l>            <r>эргүү<s n="adj"/></r></p></e> <!-- "foolish, stupid"-->
-<e>       <p><l>ᠡᠷᠭᠢᠭᠦᠦ<s n="adj"/></l>            <r>халшралгүй<s n="adj"/></r></p></e> <!-- "foolish, stupid"-->
-
-
-
-
-
-<!-- SECTION: Adverbs -->
-
-<e>       <p><l>ᠰᠠᠶᠢᠨ<s n="adv"/></l>              <r>сайн<s n="adv"/></r></p></e> <!--"well"-->
-<e>       <p><l>ᠶᠡᠬᠡ<s n="adv"/></l>                <r>их<s n="adv"/></r></p></e> <!--"well"-->
-<e>       <p><l>ᠳᠠᠬᠢᠨ<s n="adv"/></l>             <r>дахин<s n="adv"/></r></p></e> <!--"again"-->
-<e>       <p><l>ᠣᠳᠣ<s n="adv"/></l>              <r>одоо<s n="adv"/></r></p></e> <!--"now"-->
-<e>       <p><l>ᠰᠠᠶ᠋ᠢ<s n="adv"/></l>               <r>сая<s n="adv"/></r></p></e> <!--"just now"-->
-<e>       <p><l>ᠶᠠᠭᠠᠬᠢᠭᠠᠳ<s n="adv"/></l>             <r>яагаад<s n="adv"/></r></p></e> <!--"why"-->
-<e>       <p><l>ᠲᠡᠶᠢᠮᠦ<s n="adv"/></l>              <r>тийм<s n="adv"/></r></p></e> <!--"in such a way"-->
-<e>       <p><l>ᠢᠯᠡᠭᠦᠦ<s n="adv"/></l>              <r>илүү<s n="adv"/></r></p></e> <!--"rather"-->
-<e>       <p><l>ᠮᠠᠷᠭᠠᠰᠢ<s n="adv"/></l>           <r>маргааш<s n="adv"/></r></p></e> <!--"tomorrow"-->
-<e>       <p><l>ᠦᠷᠭᠦᠯᠵᠢ<s n="adv"/></l>           <r>үргэлж<s n="adv"/></r></p></e> <!--"always"-->
-<e>       <p><l>ᠬᠡᠵᠢᠶᠡᠳᠡ<s n="adv"/></l>           <r>хэзээд<s n="adv"/></r></p></e> <!--"always, continuously, all the time"-->
-
-
-
-
-<!-- SECTION: Verbs -->
-
-<e>       <p><l>ᠪᠣᠯ<s n="v"/><s n="iv"/></l>      <r>бол<s n="v"/><s n="iv"/></r></p></e> <!-- "1. быть" -->
-<e>       <p><l>ᠦᠵᠡ<s n="v"/><s n="tv"/></l>      <r>үз<s n="v"/><s n="tv"/></r></p></e> <!-- "see" -->
-<e>       <p><l>ᠬᠠᠷ᠎ᠠ<s n="v"/><s n="tv"/></l>  <r>хар<s n="v"/><s n="tv"/></r></p></e> <!--"look at"  -->
-<e>       <p><l>ᠶᠠᠪᠤ<s n="v"/><s n="iv"/></l>  <r>яв<s n="v"/><s n="iv"/></r></p></e> <!-- "go"  -->
-<e>       <p><l>ᠣᠴᠢ<s n="v"/><s n="iv"/></l>  <r>оч<s n="v"/><s n="iv"/></r></p></e> <!--"go"  -->
-<e>       <p><l>ᠢᠷ<s n="v"/><s n="iv"/></l>  <r>ир<s n="v"/><s n="iv"/></r></p></e> <!--"go"  -->
-<e>       <p><l>ᠰᠣᠩᠭᠣ<s n="v"/><s n="tv"/></l>  <r>сонго<s n="v"/><s n="tv"/></r></p></e> <!--"choose"  -->
-<e>       <p><l>ᠥᠭ<s n="v"/><s n="tv"/></l>  <r>өг<s n="v"/><s n="tv"/></r></p></e> <!--"give"  -->
-<e>       <p><l>ᠣᠶᠢᠯᠠᠭ᠎ᠠ<s n="v"/><s n="tv"/></l>  <r>ойлго<s n="v"/><s n="tv"/></r></p></e> <!--"understand"  -->
-<e>       <p><l>ᠪᠦᠲᠦᠭᠡ<s n="v"/><s n="tv"/></l>           <r>бүтээ<s n="v"/><s n="tv"/></r></p></e> <!--"create"-->
-<e>       <p><l>ᠮᠡᠳᠡ<s n="v"/><s n="tv"/></l>      <r>мэд<s n="v"/><s n="tv"/></r></p></e> <!-- "know" -->
-<e>       <p><l>ᠤᠤ<s n="v"/><s n="tv"/></l>      <r>уу<s n="v"/><s n="tv"/></r></p></e> <!-- "drink" -->
-<e>       <p><l>ᠬᠦᠷᠢ<s n="v"/><s n="iv"/></l>      <r>хүр<s n="v"/><s n="iv"/></r></p></e> <!-- "reach" -->
-<e>       <p><l>ᠰᠤᠤ<s n="v"/><s n="iv"/></l>      <r>суу<s n="v"/><s n="tv"/></r></p></e> <!-- "sit" -->
-<e>       <p><l>ᠰᠡᠷᠭᠡᠢᠯᠡᠬᠦ<s n="v"/><s n="iv"/></l>      <r>сэргийлэх<s n="v"/><s n="tv"/></r></p></e> <!-- "prevent" -->
-<e>       <p><l>ᠡᠷᠬᠢᠮᠯᠡᠬᠦ<s n="v"/><s n="iv"/></l>      <r>эрхэмлэх<s n="v"/><s n="tv"/></r></p></e> <!-- "value, prize" -->
-<e>       <p><l>ᠣᠷᠣᠯᠴᠠᠬᠤ<s n="v"/><s n="iv"/></l>      <r>оролцох<s n="v"/><s n="tv"/></r></p></e> <!-- "participate, take part in" -->
-<e>       <p><l>ᠰᠣᠷᠣᠯᠴᠠᠬᠤ<s n="v"/><s n="iv"/></l>      <r>суралцах<s n="v"/><s n="tv"/></r></p></e> <!-- "study" -->
-
-
-
-<!-- SECTION: Interjections -->
-
-
-<!-- SECTION: Abbreviations -->
-<!-- FIXME: Need to check -->
-
-<e>       <p><l>кг<s n="abbr"/></l>               <r>кг<s n="abbr"/></r></p></e> <!-- "kg" -->
-<e>       <p><l>км²<s n="abbr"/></l>              <r>км²<s n="abbr"/></r></p></e> <!-- "km" -->
-<e>       <p><l>км³<s n="abbr"/></l>              <r>км³<s n="abbr"/></r></p></e> <!-- "" -->
-<e>       <p><l>км<s n="abbr"/></l>               <r>км<s n="abbr"/></r></p></e> <!-- "km" -->
-<e>       <p><l>м²<s n="abbr"/></l>               <r>м²<s n="abbr"/></r></p></e> <!-- "m" -->
-<e>       <p><l>м³<s n="abbr"/></l>               <r>м³<s n="abbr"/></r></p></e> <!-- "" -->
-<e>       <p><l>м<s n="abbr"/></l>                <r>м<s n="abbr"/></r></p></e> <!-- "m" -->
-<e>       <p><l>млн<s n="abbr"/></l>              <r>млн<s n="abbr"/></r></p></e> <!-- "million" -->
-<e>       <p><l>млрд<s n="abbr"/></l>             <r>млрд<s n="abbr"/></r></p></e> <!-- "billion" -->
-<e>       <p><l>мм<s n="abbr"/></l>               <r>мм<s n="abbr"/></r></p></e> <!-- "mm" -->
-
-<!-- SECTION: Punctuation -->
-
-
-<e>       <p><l>,<s n="cm"/></l>                  <r>,<s n="cm"/></r></p></e>
-<e>       <p><l>(<s n="lpar"/></l>                <r>(<s n="lpar"/></r></p></e>
-<e>       <p><l>)<s n="rpar"/></l>                <r>)<s n="rpar"/></r></p></e>
-<e>       <p><l>[<s n="lpar"/></l>                <r>[<s n="lpar"/></r></p></e>
-<e>       <p><l>]<s n="rpar"/></l>                <r>]<s n="rpar"/></r></p></e>
-<e>       <p><l>«<s n="lquot"/></l>               <r>«<s n="lquot"/></r></p></e>
-<e>       <p><l>»<s n="rquot"/></l>               <r>»<s n="rquot"/></r></p></e>
-<e>       <p><l>“<s n="lquot"/></l>               <r>“<s n="lquot"/></r></p></e>
-<e>       <p><l>”<s n="rquot"/></l>               <r>”<s n="rquot"/></r></p></e>
-<e>       <p><l>-<s n="guio"/></l>                <r>-<s n="guio"/></r></p></e>
-<e>       <p><l>—<s n="guio"/></l>                <r>—<s n="guio"/></r></p></e>
-<e>       <p><l>'<s n="apos"/></l>                <r>'<s n="apos"/></r></p></e>
-
-
-  </section>
+      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+   </section>
 </dictionary>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/Bilingual_dictionary
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+-->

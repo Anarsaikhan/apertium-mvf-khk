@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium mvf-khk], [0.2.0], [apertium-stuff@lists.sourceforge.net], [apertium-mvf-khk], [http://wiki.apertium.org/wiki/Apertium-mvf-khk])
+AC_INIT([Apertium mvf-khk], [0.2.0], [anarsaikhana@gmail.com], [apertium-mvf-khk], [http://wiki.apertium.org/wiki/Apertium-mvf-khk])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
