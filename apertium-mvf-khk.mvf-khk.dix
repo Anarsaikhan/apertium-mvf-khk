@@ -76,6 +76,7 @@
     <sdef n="pprs"            c="Present participle"/>
     <sdef n="pasv"            c="Passive"/>
     <sdef n="actv"            c="Active voice"/>
+    <sdef n="ger"             c="Gerund (verbal noun)"/>
 
     <sdef n="sint"            c="Synthetic (of adjectives)"/>
     <sdef n="pst"             c="Positive"/>

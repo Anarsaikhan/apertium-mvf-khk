@@ -10,7 +10,7 @@
       </program>
 
 
-      <program name="cg-proc -w -1">
+      <program name="cg-proc -n -w -1">
         <file name="mvf-khk.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -51,7 +51,7 @@
       </program>
 
 
-      <program name="cg-proc -w -1">
+      <program name="cg-proc -n -w -1">
         <file name="khk-mvf.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
