@@ -6,6 +6,7 @@
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
+    <sdef n="v"               c="Verb"/>
     <sdef n="np"              c="Proper noun"/>
     <sdef n="vblex"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
@@ -63,6 +64,9 @@
     <sdef n="neg"             c="Negative"/>
     <sdef n="emph"            c="Emphatic"/>
 
+    <sdef n="tv"              c="Transitive verb"/>
+    <sdef n="iv"              c="Intransitive verb"/>
+
     <sdef n="inf"             c="Infinitive"/>
     <sdef n="pres"            c="Present"/>
     <sdef n="imp"             c="Imperative"/>
@@ -104,12 +108,14 @@
       <!-- Verbs -->
       <e><p><l>ᠰᠡᠷᠭᠡᠶᠢᠯᠡᠬᠦ<s n="vblex"/></l><r>сэргийлэх<s n="vblex"/></r></p></e>
       <e><p><l>ᠪᠣᠯ<s n="vblex"/></l><r>бол<s n="vblex"/></r></p></e>
-      <e><p><l>ᠢᠳᠡ<s n="vblex"/></l><r>ид<s n="vblex"/></r></p></e>
+      <e><p><l>ᠢᠳᠡ<s n="v"/><s n="tv"/></l><r>ид<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>ᠳᠤᠷᠠᠲᠠᠢ<s n="vblex"/></l><r>дуртай<s n="vblex"/></r></p></e>
 
       <!-- Pronouns -->
       <e><p><l>ᠪᠢ<s n="prn"/></l><r>би<s n="prn"/></r></p></e>
 
+      <!-- Postpositions -->
+      <e><p><l>ᠪᠣᠯ<s n="post"/></l><r>бол<s n="post"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
