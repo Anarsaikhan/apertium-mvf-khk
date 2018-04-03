@@ -3,3 +3,12 @@
 /INSTALL
 /Makefile
 /*.bin
+/ap_include.am
+/config.log
+/config.status
+/configure
+/Makefile.in
+/.DS_Store
+/.deps
+/autom4te.cache
+/modes
